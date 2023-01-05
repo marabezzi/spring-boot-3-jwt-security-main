@@ -1,4 +1,4 @@
-package com.alibou.security.user;
+package io.marabezzi.security.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -23,8 +23,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 @Entity
 @Table(name = "_user")
 public class User implements UserDetails {
-
-  @Id
+	private static final long serialVersionUID = 1L;
+	
+@Id
   @GeneratedValue
   private Integer id;
   private String firstname;

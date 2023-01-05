@@ -1,4 +1,4 @@
-package com.alibou.security.auth;
+package io.marabezzi.security.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

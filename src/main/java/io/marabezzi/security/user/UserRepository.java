@@ -1,4 +1,4 @@
-package com.alibou.security.user;
+package io.marabezzi.security.user;
 
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;

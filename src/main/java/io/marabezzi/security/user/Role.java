@@ -1,4 +1,4 @@
-package com.alibou.security.user;
+package io.marabezzi.security.user;
 
 public enum Role {
 
